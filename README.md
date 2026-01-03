@@ -16,8 +16,3 @@ Proyecto personal para practicar backend, diseño de endpoints, filtros y conexi
 - Filtros por: año, subgénero, director, rating_min, rating_max
 - Ordenamiento por: anio o rating (asc/desc)
 - Paginación: page y size
-
-## Cómo ejecutar (local)
-1. Crear y activar entorno virtual
-2. Instalar dependencias
-3.
