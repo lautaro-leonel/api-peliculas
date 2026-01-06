@@ -1,21 +1,20 @@
-# 🎬 Movies API
+Movies API
 
 Una **API REST** creada con **Python** para consultar información sobre películas de ciencia ficción.
 
 Este proyecto fue desarrollado como práctica de **Backend**, manejo de **APIs**, **bases de datos** y **estructuración de endpoints**.
 
----
 
-## 🚀 ¿Qué hace esta API?
+¿Qué hace esta API?
 
 - Devuelve información de películas
 - Permite filtrar datos
 - Responde en formato **JSON**
 - Simula un servicio real consumible por apps o webs
 
----
 
-## 🧠 Tecnologías usadas
+
+Tecnologías usadas
 
 - Python
 - FastAPI
@@ -23,9 +22,9 @@ Este proyecto fue desarrollado como práctica de **Backend**, manejo de **APIs**
 - JSON
 - Git & GitHub
 
----
 
-## 📦 Ejemplo de datos
+
+Ejemplo de datos
 
 Cada película incluye información como:
 
@@ -37,18 +36,17 @@ Cada película incluye información como:
 - Director
 - Descripción
 
----
 
-## 🔗 Endpoints principales
+Endpoints principales
 
 - `GET /movies` → lista todas las películas  
 - `GET /movies/{id}` → obtiene una película por ID  
 - `GET /movies?genre=` → filtra por género  
 - `GET /movies?year=` → filtra por año  
 
----
 
-## ▶️ Cómo ejecutar el proyecto
+
+Cómo ejecutar el proyecto
 
 1. Clonar el repositorio  
 2. Instalar dependencias  
