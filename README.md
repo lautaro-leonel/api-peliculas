@@ -1,55 +1,63 @@
 Movies API
 
-Una **API REST** creada con **Python** para consultar información sobre películas de ciencia ficción.
+Movies API es una API REST desarrollada en Python para consultar información sobre películas de ciencia ficción.  
+El proyecto fue creado con el objetivo de practicar desarrollo backend, diseño de APIs y trabajo con bases de datos.
 
-Este proyecto fue desarrollado como práctica de **Backend**, manejo de **APIs**, **bases de datos** y **estructuración de endpoints**.
+Descripcion
 
+La API permite obtener información estructurada sobre películas y consumirla desde aplicaciones externas como sitios web o aplicaciones móviles.  
+Las respuestas se entregan en formato JSON.
 
-¿Qué hace esta API?
+Tecnologias utilizadas
 
-- Devuelve información de películas
-- Permite filtrar datos
-- Responde en formato **JSON**
-- Simula un servicio real consumible por apps o webs
+Python  
+FastAPI  
+SQL  
+JSON  
+Git  
+GitHub  
 
+Funcionalidades
 
+Obtencion de todas las peliculas  
+Busqueda de peliculas por ID  
+Filtrado por genero  
+Filtrado por año  
 
-Tecnologías usadas
+Estructura de datos
 
-- Python
-- FastAPI
-- SQL (base de datos relacional)
-- JSON
-- Git & GitHub
+Cada pelicula contiene informacion como:
 
-
-
-Ejemplo de datos
-
-Cada película incluye información como:
-
-- ID
-- Título
-- Año
-- Género
-- Subgénero
-- Director
-- Descripción
-
+ID  
+Titulo  
+Año  
+Genero  
+Subgenero  
+Director  
+Descripcion  
 
 Endpoints principales
 
-- `GET /movies` → lista todas las películas  
-- `GET /movies/{id}` → obtiene una película por ID  
-- `GET /movies?genre=` → filtra por género  
-- `GET /movies?year=` → filtra por año  
+GET /movies  
+GET /movies/{id}  
+GET /movies?genre=  
+GET /movies?year=  
 
+Ejecucion del proyecto
 
+Clonar el repositorio  
+Instalar las dependencias  
+Ejecutar el servidor  
+Acceder a la documentacion automatica en el navegador
 
-Cómo ejecutar el proyecto
+http://localhost:8000/docs
 
-1. Clonar el repositorio  
-2. Instalar dependencias  
-3. Ejecutar el servidor  
-4. Acceder a la documentación automática en:
+Objetivo del proyecto
 
+Aplicar conocimientos de Python en un proyecto real  
+Comprender el funcionamiento de una API REST  
+Desarrollar un proyecto para portfolio profesional
+
+Estado del proyecto
+
+El proyecto se encuentra en desarrollo y se planean futuras mejoras como autenticacion, paginacion y despliegue en la nube
