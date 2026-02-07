@@ -5,7 +5,6 @@ from database import engine, get_db
 from models import Base, Pelicula
 from typing import Optional
 from sqlalchemy import func
-from fastapi import Depends
 
 
 app = FastAPI()
@@ -124,5 +123,6 @@ def crear_pelicula(pelicula: PeliculaCreate, db: Session = Depends(get_db)):
 
 
 @app.get("/")
-def inicio(db):
+def inicio(db: Session = Depends(get_db)):
     return db.query(Pelicula).all()
+
