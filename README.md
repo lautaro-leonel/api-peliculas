@@ -50,7 +50,7 @@ Instalar las dependencias
 Ejecutar el servidor  
 Acceder a la documentacion automatica en el navegador
 
-http://localhost:8000/docs
+https://api-peliculas-production-9f62.up.railway.app/docs
 
 Objetivo del proyecto
 
